@@ -22,6 +22,13 @@ k.loadSprite("sonic", "graphics/sonic.png", {
     },
   },
 });
+k.loadSprite("motobug", "graphics/motobug.png", {
+  sliceX: 5,
+  sliceY: 1,
+  anims: {
+    run: { from: 0, to: 4, loop: true, speed: 8 },
+  },
+});
 k.loadFont("mania", "fonts/mania.ttf");
 k.loadSound("destroy", "sounds/Destroy.wav");
 k.loadSound("hurt", "sounds/Hurt.wav");
